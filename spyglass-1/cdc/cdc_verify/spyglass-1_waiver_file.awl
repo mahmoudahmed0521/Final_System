@@ -1,0 +1,8 @@
+waive -rule {  {Ac_conv04}  }  -comment {Created by ICer on 07-Oct-2026 03:08:14 FIFO memory data is read only after gray-coded pointers are synchronized; data is stable when sampled}  -exact 
+waive -rule {  {Ac_conv04}  }  -comment {Created by ICer on 07-Oct-2026 03:08:14 FIFO memory data is read only after gray-coded pointers are synchronized; data is stable when sampled}  -exact 
+waive -rule {  {Setup_port01}  }  -comment {Created by ICer on 07-Oct-2026 03:10:10}  -exact 
+waive -rule {  {Ac_cdc01a}  }  -comment {Created by ICer on 07-Oct-2026 03:22:47 safe as it pass to the sync}  -exact 
+waive -rule {  {Ac_cdc01a}  }  -comment {Created by ICer on 07-Oct-2026 03:22:47 safe as it pass to the sync}  -exact 
+waive -rule {  {Ac_unsync01}  }  -comment {Created by ICer on 07-Oct-2026 03:33:03 safe crossing to tx_out }  -exact 
+waive -rule {  {Ac_unsync01}  }  -comment {Created by ICer on 07-Oct-2026 03:33:03 safe crossing to tx_out }  -exact 
+waive -rule {  {Ac_datahold01a}  }  -comment {Created by ICer on 07-Oct-2026 03:58:20}  -exact 

@@ -1,0 +1,52 @@
+##Data Import Section
+
+read_file -type verilog RTL/ALU_16.v
+read_file -type verilog RTL/ASYNC_FIFO.v
+read_file -type verilog RTL/CLK_GATE_SYS.v
+read_file -type verilog RTL/CLKDIV_MUX.v
+read_file -type verilog RTL/Clock_Divider.v
+read_file -type verilog RTL/Data_Sampling.v
+read_file -type verilog RTL/Data_Sync.v
+read_file -type verilog RTL/Deserializer.v
+read_file -type verilog RTL/DF_SYNC.v
+read_file -type verilog RTL/edge_bit_counter.v
+read_file -type verilog RTL/FIFO_MEM.v
+read_file -type verilog RTL/FIFO_RD.v
+read_file -type verilog RTL/FIFO_WR.v
+read_file -type verilog RTL/FSM_UART_RX.v
+read_file -type verilog RTL/FSM_UART_TX.v
+read_file -type verilog RTL/MUX4x1.v
+read_file -type verilog RTL/Parity_calc.v
+read_file -type verilog RTL/parity_check.v
+read_file -type verilog RTL/PULSE_GEN.v
+read_file -type verilog RTL/REG_FILE.v
+read_file -type verilog RTL/RST_SYNC.v
+read_file -type verilog RTL/Serializer.v
+read_file -type verilog RTL/start_check.v
+read_file -type verilog RTL/stop_check.v
+read_file -type verilog RTL/SYS_TOP.v
+read_file -type verilog RTL/SYSTEM_CNTRL.v
+read_file -type verilog RTL/UART_RX_TOP.v
+read_file -type verilog RTL/UART_TOP_SYS.v
+read_file -type verilog RTL/UART_TX_TOP.v
+read_file -type verilog tsmc13_m.v
+read_file -type sgdc SYS_TOP.sgdc
+
+##Common Options Section
+
+set_option projectwdir .
+set_option language_mode mixed
+set_option designread_enable_synthesis no
+set_option designread_disable_flatten no
+set_option active_methodology $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff
+
+
+##Goal Setup Section
+
+current_methodology $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff
+
+
+current_goal lint/lint_rtl -alltop
+read_file -type awl ./spyglass-1/lint/lint_rtl/spyglass-1_waiver_file.awl
+set_goal_option default_waiver_file ./spyglass-1/lint/lint_rtl/spyglass-1_waiver_file.awl
+

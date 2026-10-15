@@ -1,0 +1,7 @@
+start_gui     1  source -echo -verbose fm_post_dft_script.tcl
+
+Received Signal 1 from: PID=25268 (UID=1000)
+
+
+Process terminated by hangup.
+

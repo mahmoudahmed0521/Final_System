@@ -1,0 +1,1 @@
+gui_select_message -rule Ac_unsync01 -msg {Unsynchronized Crossing: destination primary output SYS_TOP.framing_error, clocked by SYS_TOP.u_RX_CLK_DIV.O_DIV_CLK, source flop SYS_TOP.u_UART_TOP.u_uart_rx.U_STOP_CHECK.stp_err, clocked by SYS_TOP.u_RX_CLK_DIV.O_DIV_CLK. Reason: Qualifier not found [Total Sources: 1 (Number of source domains: 1)]}

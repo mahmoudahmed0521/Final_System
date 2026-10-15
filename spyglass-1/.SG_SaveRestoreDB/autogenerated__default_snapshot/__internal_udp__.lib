@@ -1,0 +1,31 @@
+library (_udp_to_dotlib_) {
+ 	cell(udp_tlat) {
+ 		pin(out) {
+			direction : output;
+			function : "IQ";
+		}
+ 		pin(in) {
+			direction : input;
+		}
+ 		pin(hold) {
+			direction : input;
+		}
+ 		pin(clr_) {
+			direction : input;
+		}
+ 		pin(set_) {
+			direction : input;
+		}
+ 		pin(NOTIFIER) {
+			direction : input;
+		}
+ 		latch(IQ,IQN) {
+ 			preset : "!set_";
+ 			clear : "!clr_";
+ 			enable : "!hold";
+ 			data_in : "in";
+ 			clear_preset_var1: H;
+ 			clear_preset_var2: H;
+ 		}
+	}
+}

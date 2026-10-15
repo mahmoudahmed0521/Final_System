@@ -1,0 +1,6 @@
+SCHEMA@@CName@@CTag@@CMode@@CFrequency@@CDomain@@DCrossings@@RegPEdge@@LatchPEdge@@LibCellPEdge@@BBPEdge@@RegNEdge@@LatchNEdge@@LibCellNEdge@@BBNEdge@@CSource
+VALUE@@SYS_TOP.REF_CLK@@Tag_REF@@sys-clock@@50@@Domain_REF@@0@@299@@0@@0@@0@@0@@1@@0@@0@@SDC/SGDC
+VALUE@@SYS_TOP.UART_CLK@@Tag_UART@@sys-clock@@3.6864@@Domain_UART@@0@@13@@0@@0@@0@@0@@0@@0@@0@@SDC/SGDC
+VALUE@@SYS_TOP.u_CLK_GATE.GATED_CLK@@Tag_ALU@@sys-clock@@50@@Domain_REF@@0@@17@@0@@0@@0@@0@@0@@0@@0@@SDC/SGDC
+VALUE@@SYS_TOP.u_TX_CLK_DIV.O_DIV_CLK@@Tag_TX@@sys-clock@@0.1152@@Domain_UART@@0@@34@@0@@0@@0@@0@@0@@0@@0@@SDC/SGDC
+VALUE@@SYS_TOP.u_RX_CLK_DIV.O_DIV_CLK@@Tag_RX@@sys-clock@@3.6864@@Domain_UART@@0@@28@@0@@0@@0@@0@@0@@0@@0@@SDC/SGDC

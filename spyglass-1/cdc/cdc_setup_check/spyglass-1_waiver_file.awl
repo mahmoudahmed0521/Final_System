@@ -1,0 +1,2 @@
+waive -rule {  {Setup_port01}  }  -comment {Created by ICer on 07-Oct-2026 01:41:28 Ok as partially constrained}  -exact 
+waive -rule {  {Setup_port01}  }  -comment {Created by ICer on 07-Oct-2026 01:41:28 Ok as partially constrained}  -exact 

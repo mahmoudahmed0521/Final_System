@@ -1,0 +1,4 @@
+INPUT@@/mnt/hgfs/Shared_Folder/SYSTEM/spyglass-1/cdc/cdc_verify/spyglass_reports@@/mnt/hgfs/Shared_Folder/SYSTEM/spyglass-1/html_reports/data_files/@@SYS_TOP@@cdc-cdc_verify@@
+REGEN@@/mnt/hgfs/Shared_Folder/SYSTEM/spyglass-1/cdc/cdc_verify/spyglass_reports/clock-reset/adv_cdc.rpt@@data_files/SYS_TOP_cdc-cdc_verify_adv_cdc.rpt.html@@
+COPY@@/mnt/hgfs/Shared_Folder/SYSTEM/spyglass-1/cdc/cdc_verify/spyglass_reports/clock-reset/adv_cdc.rpt@@data_files/SYS_TOP_cdc-cdc_verify_adv_cdc.rpt@@
+PROCESS@@clock-reset@@SpyGlass

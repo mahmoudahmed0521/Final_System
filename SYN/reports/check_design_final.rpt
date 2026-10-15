@@ -1,0 +1,125 @@
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP1
+Date:        Tue Oct  6 17:50:13 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     46
+    Unconnected ports (LINT-28)                                    31
+    Feedthrough (LINT-29)                                           7
+    Shorted outputs (LINT-31)                                       3
+    Constant outputs (LINT-52)                                      5
+
+Cells                                                              29
+    Connected to power or ground (LINT-32)                         24
+    Nets connected to multiple pins on same cell (LINT-33)          5
+--------------------------------------------------------------------------------
+
+Warning: In design 'FIFO_MEM_CNTRL_DATA_WIDTH8_ADDR_WIDTH3', port 'rclk' is not connected to any nets. (LINT-28)
+Warning: In design 'FIFO_MEM_CNTRL_DATA_WIDTH8_ADDR_WIDTH3', port 'rrst_n' is not connected to any nets. (LINT-28)
+Warning: In design 'FIFO_MEM_CNTRL_DATA_WIDTH8_ADDR_WIDTH3', port 'rinc_valid' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW_div_uns_0', port 'remainder[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW_div_uns_0', port 'remainder[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW_div_uns_0', port 'remainder[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW_div_uns_0', port 'remainder[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW_div_uns_0', port 'remainder[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW_div_uns_0', port 'remainder[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW_div_uns_0', port 'remainder[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW_div_uns_0', port 'remainder[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW_div_uns_0', port 'divide_by_0' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_sub_0', port 'A[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_sub_0', port 'B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_sub_0', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_sub_0', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_0', port 'A[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_0', port 'B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_0', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_0', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW02_mult_0', port 'TC' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', port 'A[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', port 'B[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', port 'B[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', port 'B[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', port 'B[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', port 'B[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', port 'B[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', port 'B[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', input port 'A[6]' is connected directly to output port 'SUM[6]'. (LINT-29)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', input port 'A[5]' is connected directly to output port 'SUM[5]'. (LINT-29)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', input port 'A[4]' is connected directly to output port 'SUM[4]'. (LINT-29)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', input port 'A[3]' is connected directly to output port 'SUM[3]'. (LINT-29)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', input port 'A[2]' is connected directly to output port 'SUM[2]'. (LINT-29)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', input port 'A[1]' is connected directly to output port 'SUM[1]'. (LINT-29)
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW01_add_1', input port 'A[0]' is connected directly to output port 'SUM[0]'. (LINT-29)
+Warning: In design 'CLKDIV_MUX_WIDTH8', output port 'OUT[7]' is connected directly to output port 'OUT[4]'. (LINT-31)
+Warning: In design 'CLKDIV_MUX_WIDTH8', output port 'OUT[7]' is connected directly to output port 'OUT[5]'. (LINT-31)
+Warning: In design 'CLKDIV_MUX_WIDTH8', output port 'OUT[7]' is connected directly to output port 'OUT[6]'. (LINT-31)
+Warning: In design 'SYS_TOP', a pin on submodule 'u_TX_CLK_DIV' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CLK_EN' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'u_RX_CLK_DIV' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CLK_EN' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'u_RX_CLK_DIV' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DIV_RATIO[7]' is connected to logic 0. 
+Warning: In design 'SYS_TOP', a pin on submodule 'u_RX_CLK_DIV' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DIV_RATIO[6]' is connected to logic 0. 
+Warning: In design 'SYS_TOP', a pin on submodule 'u_RX_CLK_DIV' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DIV_RATIO[5]' is connected to logic 0. 
+Warning: In design 'SYS_TOP', a pin on submodule 'u_RX_CLK_DIV' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DIV_RATIO[4]' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16', a pin on submodule 'sub_46' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[8]' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16', a pin on submodule 'sub_46' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[8]' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16', a pin on submodule 'sub_46' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16', a pin on submodule 'add_43' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[8]' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16', a pin on submodule 'add_43' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[8]' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16', a pin on submodule 'add_43' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16', a pin on submodule 'mult_49' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TC' is connected to logic 0. 
+Warning: In design 'UART_TX_TOP', a pin on submodule 'U_MUX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'START_BIT' is connected to logic 0. 
+Warning: In design 'UART_TX_TOP', a pin on submodule 'U_MUX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'STOP_BIT' is connected to logic 1. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[13]' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[6]' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[5]' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[4]' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[3]' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[2]' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[1]' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[0]' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16', the same net is connected to more than one pin on submodule 'sub_46'. (LINT-33)
+   Net 'n1' is connected to pins 'A[8]', 'B[8]'', 'CI'.
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16', the same net is connected to more than one pin on submodule 'add_43'. (LINT-33)
+   Net 'n2' is connected to pins 'A[8]', 'B[8]'', 'CI'.
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW02_mult_0', the same net is connected to more than one pin on submodule 'FS_1'. (LINT-33)
+   Net 'n40' is connected to pins 'A[13]', 'B[6]''.
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW02_mult_0', the same net is connected to more than one pin on submodule 'FS_1'. (LINT-33)
+   Net 'n41' is connected to pins 'B[5]', 'B[4]'', 'B[3]', 'B[2]', 'B[1]'.
+Warning: In design 'ALU_OPER_WIDTH8_OUT_WIDTH16_DW02_mult_0', the same net is connected to more than one pin on submodule 'FS_1'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'B[0]', 'CI''.
+Warning: In design 'SYS_CTRL_DATA_WIDTH8_ADDR_WIDTH4', output port 'clk_div_en' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'CLKDIV_MUX_WIDTH8', output port 'OUT[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'CLKDIV_MUX_WIDTH8', output port 'OUT[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'CLKDIV_MUX_WIDTH8', output port 'OUT[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'CLKDIV_MUX_WIDTH8', output port 'OUT[4]' is connected directly to 'logic 0'. (LINT-52)
+1

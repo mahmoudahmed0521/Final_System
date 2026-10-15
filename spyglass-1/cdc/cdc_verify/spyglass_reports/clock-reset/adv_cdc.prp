@@ -1,0 +1,26 @@
+################################################################################
+#
+# Purpose: 
+#   This file specifies the assertion details along with their run status.
+#   Functional analysis is done only for those assertions that are enabled
+#   in the property file.
+#
+# Format: 
+#   
+#   RuleName: <rule-name>
+#   <selection> <type> <status> <file-name> <line-num> <hier> [ <info> ]
+#   .....
+#   
+#   
+################################################################################
+RuleName: Ac_conv02 
+on   Assertion   Partially-Proved    RTL/FIFO_RD.v  64  "SYS_TOP.u_ASYNC_FIFO.u_fifo_rd"  [SYS_TOP.u_ASYNC_FIFO.u_fifo_rd.rempty_next]
+on   Assertion   Partially-Proved    RTL/SYSTEM_CNTRL.v  225  "SYS_TOP.u_SYS_CTRL"  [SYS_TOP.u_SYS_CTRL.next_state[0]]
+on   Assertion   Partially-Proved    RTL/FIFO_WR.v  38  "SYS_TOP.u_ASYNC_FIFO.u_fifo_wr"  [SYS_TOP.u_ASYNC_FIFO.u_fifo_wr.wfull_next]
+
+RuleName: Ac_cdc01a 
+on   Assertion   Partially-Proved    RTL/DF_SYNC.v  17  "SYS_TOP.u_ASYNC_FIFO.sync_w2r"  [SFlop:SYS_TOP.u_ASYNC_FIFO.wptr[3] SClk:SYS_TOP.REF_CLK DFlop:SYS_TOP.u_ASYNC_FIFO.sync_w2r.sync_ff1[3] DClk:SYS_TOP.u_TX_CLK_DIV.O_DIV_CLK]
+
+RuleName: Ac_datahold01a 
+on   Assertion   Partially-Proved    RTL/Parity_calc.v  29  "SYS_TOP.u_UART_TOP.u_uart_tx.U_PARITY"  [Des: "SYS_TOP.u_UART_TOP.u_uart_tx.U_PARITY.PAR_BIT_reg.Q", Src: "SYS_TOP.u_ASYNC_FIFO.u_fifo_mem_cntrl.\mem_reg[7][0] .Q"]
+on   Assertion   Partially-Proved    RTL/Serializer.v  25  "SYS_TOP.u_UART_TOP.u_uart_tx.U_SERIALIZER"  [Des: "SYS_TOP.u_UART_TOP.u_uart_tx.U_SERIALIZER.\shift_reg_reg[0] .Q", Src: "SYS_TOP.u_ASYNC_FIFO.u_fifo_mem_cntrl.\mem_reg[7][0] .Q"]

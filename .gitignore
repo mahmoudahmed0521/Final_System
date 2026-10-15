@@ -1,0 +1,85 @@
+# ==========================================
+# Simulation outputs
+# ==========================================
+*.vcd
+*.vpd
+*.fsdb
+*.wlf
+*.log
+*.jou
+*.out
+simv
+simv.daidir/
+csrc/
+INCA_libs/
+xcelium.d/
+work/
+transcript
+vsim.wlf
+
+# ==========================================
+# Temporary and compiled files
+# ==========================================
+*.o
+*.a
+*.so
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Synthesis outputs and temporary databases
+# ==========================================
+*.ddc
+*.syn
+*.mr
+*.pvl
+*.svf
+*.spf
+*.sdf
+*.v.gz
+*.db
+*.lib.gz
+
+# ==========================================
+# Physical design / place and route
+# ==========================================
+*.gds
+*.gdsii
+*.def
+*.spef
+*.spf.gz
+*.lef
+*.odb
+*.opendb
+*.rpt.gz
+
+# ==========================================
+# Build and tool work directories
+# ==========================================
+build/
+tmp/
+temp/
+*.cache
+
+# ==========================================
+# Editor and operating-system files
+# ==========================================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================================
+# Local environment files
+# ==========================================
+.env
+.env.*
+
+# ==========================================
+# Keep project source and documentation tracked
+# ==========================================
+!.gitignore
+!README.md

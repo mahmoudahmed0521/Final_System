@@ -1,0 +1,24 @@
+4@@1@@SYS_TOP.u_Data_sync.sync_bus[7:0]@@"SYS_TOP.REF_CLK"@@SYS_TOP.u_UART_TOP.u_uart_rx.U_DESERIALIZER.P_DATA[7:0]@@"SYS_TOP.u_RX_CLK_DIV.O_DIV_CLK"@@synchronized enable
+4@@2@@SYS_TOP.u_ASYNC_FIFO.sync_r2w.sync_ff1[3:0]@@"SYS_TOP.REF_CLK"@@SYS_TOP.u_ASYNC_FIFO.u_fifo_rd.rptr[3:0]@@"SYS_TOP.u_TX_CLK_DIV.O_DIV_CLK"@@Conventional multi-flop for metastability technique
+4@@3@@SYS_TOP.u_Data_sync.sync_reg[1]@@"SYS_TOP.REF_CLK"@@SYS_TOP.u_UART_TOP.u_uart_rx.U_UART_RX_FSM.Current_st[2:0]@@"SYS_TOP.u_RX_CLK_DIV.O_DIV_CLK"@@synchronizing cell(cell name : 'Data_sync')
+4@@3@@SYS_TOP.u_Data_sync.sync_reg[1]@@"SYS_TOP.REF_CLK"@@SYS_TOP.u_UART_TOP.u_uart_rx.U_UART_RX_FSM.parity_error@@"SYS_TOP.u_RX_CLK_DIV.O_DIV_CLK"@@synchronizing cell(cell name : 'Data_sync')
+4@@3@@SYS_TOP.u_Data_sync.sync_reg[1]@@"SYS_TOP.REF_CLK"@@SYS_TOP.u_UART_TOP.u_uart_rx.U_DATA_SAMPLING.sample_valid@@"SYS_TOP.u_RX_CLK_DIV.O_DIV_CLK"@@synchronizing cell(cell name : 'Data_sync')
+4@@3@@SYS_TOP.u_Data_sync.sync_reg[1]@@"SYS_TOP.REF_CLK"@@SYS_TOP.u_UART_TOP.u_uart_rx.U_STOP_CHECK.stp_err@@"SYS_TOP.u_RX_CLK_DIV.O_DIV_CLK"@@synchronizing cell(cell name : 'Data_sync')
+4@@14@@SYS_TOP.u_ASYNC_FIFO.sync_w2r.sync_ff1[3:0]@@"SYS_TOP.u_TX_CLK_DIV.O_DIV_CLK"@@SYS_TOP.u_ASYNC_FIFO.u_fifo_wr.wptr[3:0]@@"SYS_TOP.REF_CLK"@@Conventional multi-flop for metastability technique
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@2@@0
+3@@2@@0
+3@@2@@0
+3@@2@@0
+3@@3@@0
+3@@14@@1
+3@@14@@1
+3@@14@@1
+3@@14@@1
